@@ -211,6 +211,27 @@
 			remoteGlobalIDString = 4E691B9C23A104BC00878B58;
 			remoteInfo = Web3SwiftExampleUITests;
 		};
+		4E691BC723A1057E00878B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E691BC123A1057E00878B58 /* Web3SwiftExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4E691B7B23A104B900878B58;
+			remoteInfo = Web3SwiftExample;
+		};
+		4E691BC923A1057E00878B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E691BC123A1057E00878B58 /* Web3SwiftExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4E691B9123A104BC00878B58;
+			remoteInfo = Web3SwiftExampleTests;
+		};
+		4E691BCB23A1057E00878B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E691BC123A1057E00878B58 /* Web3SwiftExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4E691B9C23A104BC00878B58;
+			remoteInfo = Web3SwiftExampleUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -410,6 +431,7 @@
 		3AA816412276E5A900F5DB52 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3AEF4ABE22C0B6BE00AC7929 /* Web3+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Web3+Constants.swift"; sourceTree = "<group>"; };
 		4E691BAE23A104BC00878B58 /* Web3SwiftExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Web3SwiftExample.xcodeproj; path = ../../../Desktop/Web3SwiftExample/Web3SwiftExample.xcodeproj; sourceTree = "<group>"; };
+		4E691BC123A1057E00878B58 /* Web3SwiftExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Web3SwiftExample.xcodeproj; path = ../../../../Desktop/Web3SwiftExample/Web3SwiftExample.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -469,6 +491,7 @@
 		1317BCD9218C50D100D6D095 = {
 			isa = PBXGroup;
 			children = (
+				4E691BC023A1055E00878B58 /* Web3swiftExample */,
 				4E691BAE23A104BC00878B58 /* Web3SwiftExample.xcodeproj */,
 				3AA8163B2276E4C900F5DB52 /* Documentation */,
 				1317BE22218C8A9E00D6D095 /* Cartfile */,
@@ -970,6 +993,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4E691BC023A1055E00878B58 /* Web3swiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				4E691BC123A1057E00878B58 /* Web3SwiftExample.xcodeproj */,
+			);
+			path = Web3swiftExample;
+			sourceTree = "<group>";
+		};
+		4E691BC223A1057E00878B58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E691BC823A1057E00878B58 /* Web3SwiftExample.app */,
+				4E691BCA23A1057E00878B58 /* Web3SwiftExampleTests.xctest */,
+				4E691BCC23A1057E00878B58 /* Web3SwiftExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1124,6 +1165,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 4E691BC223A1057E00878B58 /* Products */;
+					ProjectRef = 4E691BC123A1057E00878B58 /* Web3SwiftExample.xcodeproj */;
+				},
+				{
 					ProductGroup = 4E691BAF23A104BC00878B58 /* Products */;
 					ProjectRef = 4E691BAE23A104BC00878B58 /* Web3SwiftExample.xcodeproj */;
 				},
@@ -1157,6 +1202,27 @@
 			fileType = wrapper.cfbundle;
 			path = Web3SwiftExampleUITests.xctest;
 			remoteRef = 4E691BB823A104BD00878B58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E691BC823A1057E00878B58 /* Web3SwiftExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Web3SwiftExample.app;
+			remoteRef = 4E691BC723A1057E00878B58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E691BCA23A1057E00878B58 /* Web3SwiftExampleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Web3SwiftExampleTests.xctest;
+			remoteRef = 4E691BC923A1057E00878B58 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4E691BCC23A1057E00878B58 /* Web3SwiftExampleUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Web3SwiftExampleUITests.xctest;
+			remoteRef = 4E691BCB23A1057E00878B58 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
