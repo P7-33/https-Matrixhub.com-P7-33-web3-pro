@@ -9,7 +9,7 @@ import CryptoSwift
 import BigInt
 //import EthereumAddress
 
-@testable import web3swift
+@testable import Web3swift
 
 class web3swift_transactions_Tests: XCTestCase {
     

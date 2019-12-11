@@ -8,7 +8,7 @@
 import XCTest
 import Starscream
 
-@testable import web3swift
+@testable import Web3swift
 
 class SpyDelegate: Web3SocketDelegate {
     

@@ -6,7 +6,7 @@
 //
 //import XCTest
 //
-//@testable import web3swift_iOS
+//@testable import Web3swift_iOS
 //
 //class web3swift_ObjC_Tests: XCTestCase {
 //    func testBalance() {

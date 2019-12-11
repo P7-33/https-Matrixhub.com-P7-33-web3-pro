@@ -10,7 +10,7 @@ import BigInt
 //import secp256k1_swift
 //import EthereumAddress
 
-@testable import web3swift
+@testable import Web3swift
 
 class web3swift_rinkeby_personalSignature_Tests: XCTestCase {
     

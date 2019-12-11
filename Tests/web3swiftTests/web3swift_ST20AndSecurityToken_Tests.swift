@@ -9,7 +9,7 @@ import XCTest
 import BigInt
 //import EthereumAddress
 
-@testable import web3swift
+@testable import Web3swift
 
 class web3swift_ST20AndSecurityToken_Tests: XCTestCase {
     

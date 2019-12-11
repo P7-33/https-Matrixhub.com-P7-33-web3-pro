@@ -9,7 +9,7 @@ import PromiseKit
 import BigInt
 //import EthereumAddress
 
-@testable import web3swift
+@testable import Web3swift
 
 class web3swift_promises_Tests: XCTestCase {
     var urlSession : URLSession?

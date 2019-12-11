@@ -11,7 +11,7 @@ import BigInt
 //import EthereumAddress
 //import secp256k1_swift
 
-@testable import web3swift
+@testable import Web3swift
 
 class web3swift_Tests: XCTestCase {
     

@@ -8,7 +8,7 @@ import XCTest
 import CryptoSwift
 import BigInt
 
-@testable import web3swift
+@testable import Web3swift
 
 class web3swift_numberFormattingUtil_Tests: XCTestCase {
     

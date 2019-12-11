@@ -5,7 +5,7 @@
 //
 
 import XCTest
-@testable import web3swift
+@testable import Web3swift
 
 class web3swift_EIP681_Tests: XCTestCase {
     
