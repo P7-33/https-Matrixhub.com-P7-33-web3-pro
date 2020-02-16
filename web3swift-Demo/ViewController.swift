@@ -48,6 +48,7 @@ class ViewController: UIViewController {
         pub_label.text = address
         pub_label.adjustsFontSizeToFitWidth = true
         seed_tv.text = mnemonics
+        print("wallet = \(wallet.address)")
         
     }
     
