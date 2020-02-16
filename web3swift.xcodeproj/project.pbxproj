@@ -193,7 +193,33 @@
 		4E0FBD3B23DE64AF0055BCE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0FBD3923DE64AF0055BCE6 /* Main.storyboard */; };
 		4E0FBD3D23DE64B10055BCE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E0FBD3C23DE64B10055BCE6 /* Assets.xcassets */; };
 		4E0FBD4023DE64B10055BCE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E0FBD3E23DE64B10055BCE6 /* LaunchScreen.storyboard */; };
+		4E608F7923F999B400D9584B /* web3swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1317BCE3218C50D100D6D095 /* web3swift.framework */; };
+		4E608F7A23F999B400D9584B /* web3swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1317BCE3218C50D100D6D095 /* web3swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E608F7B23F999B400D9584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1317BCDA218C50D100D6D095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1317BCE2218C50D100D6D095;
+			remoteInfo = web3swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E608F7D23F999B400D9584B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E608F7A23F999B400D9584B /* web3swift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1317BCE3218C50D100D6D095 /* web3swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = web3swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -428,6 +454,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E608F7923F999B400D9584B /* web3swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1097,10 +1124,12 @@
 				4E0FBD2D23DE64AF0055BCE6 /* Sources */,
 				4E0FBD2E23DE64AF0055BCE6 /* Frameworks */,
 				4E0FBD2F23DE64AF0055BCE6 /* Resources */,
+				4E608F7D23F999B400D9584B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4E608F7C23F999B400D9584B /* PBXTargetDependency */,
 			);
 			name = "web3swift-Demo";
 			productName = "web3swift-Demo";
@@ -1394,6 +1423,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E608F7C23F999B400D9584B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1317BCE2218C50D100D6D095 /* web3swift */;
+			targetProxy = 4E608F7B23F999B400D9584B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E0FBD3923DE64AF0055BCE6 /* Main.storyboard */ = {
