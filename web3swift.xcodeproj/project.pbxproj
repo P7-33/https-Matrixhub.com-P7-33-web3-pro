@@ -193,33 +193,7 @@
 		4E138E3023FE54FF00E21019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E138E2E23FE54FF00E21019 /* Main.storyboard */; };
 		4E138E3223FE550200E21019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E138E3123FE550200E21019 /* Assets.xcassets */; };
 		4E138E3523FE550200E21019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E138E3323FE550200E21019 /* LaunchScreen.storyboard */; };
-		4E138E3A23FE551200E21019 /* web3swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1317BCE3218C50D100D6D095 /* web3swift.framework */; };
-		4E138E3B23FE551200E21019 /* web3swift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1317BCE3218C50D100D6D095 /* web3swift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4E138E3C23FE551200E21019 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1317BCDA218C50D100D6D095 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1317BCE2218C50D100D6D095;
-			remoteInfo = web3swift;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		4E138E3E23FE551200E21019 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4E138E3B23FE551200E21019 /* web3swift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1317BCE3218C50D100D6D095 /* web3swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = web3swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -453,7 +427,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E138E3A23FE551200E21019 /* web3swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1122,12 +1095,10 @@
 				4E138E2223FE54FF00E21019 /* Sources */,
 				4E138E2323FE54FF00E21019 /* Frameworks */,
 				4E138E2423FE54FF00E21019 /* Resources */,
-				4E138E3E23FE551200E21019 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4E138E3D23FE551200E21019 /* PBXTargetDependency */,
 			);
 			name = "web3swift-Demo";
 			productName = "web3swift-Demo";
@@ -1421,14 +1392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4E138E3D23FE551200E21019 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1317BCE2218C50D100D6D095 /* web3swift */;
-			targetProxy = 4E138E3C23FE551200E21019 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4E138E2E23FE54FF00E21019 /* Main.storyboard */ = {
