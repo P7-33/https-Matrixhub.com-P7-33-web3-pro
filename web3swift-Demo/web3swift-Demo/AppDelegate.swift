@@ -3,7 +3,7 @@
 //  web3swift-Demo
 //
 //  Created by Petr Korolev on 20.02.2020.
-//  Copyright © 2020 Matter Labs. All rights reserved.
+//  Copyright © 2020 Petr Korolev. All rights reserved.
 //
 
 import UIKit
