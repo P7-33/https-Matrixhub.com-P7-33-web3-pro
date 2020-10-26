@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Example/W3SExample/W3SExample.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "container:web3swift.xcodeproj">
    </FileRef>
    <FileRef
