@@ -10,13 +10,6 @@ before_install:
   - brew update
   - brew outdated carthage || brew upgrade carthage
   - carthage build --use-xcframeworks --platform iOS
-#  - brew install carthage || true
-#  - brew outdated carthage || brew upgrade carthage
-#  - carthage update --use-xcframeworks --platform iOS
-# before_script:
-#  - carthage bootstrap --platform iOS
-install:
-  - travis_wait carthage bootstrap --platform iOS --cache-builds
 script:
   - xcodebuild -scheme web3swift -project web3swift.xcodeproj -sdk iphonesimulator14.5 -destination 'platform=iOS Simulator,name=iPhone 12,OS=14.5' build test
 after_success:
