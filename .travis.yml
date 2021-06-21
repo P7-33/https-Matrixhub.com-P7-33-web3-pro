@@ -7,9 +7,9 @@ xcode_destination: platform=iOS Simulator, OS=14.5, name=iPhone 12
 before_install:
  - brew install carthage
  - brew upgrade carthage
-#  - carthage update --use-xcframeworks --platform iOS
-before_script:
- - carthage bootstrap --platform iOS
+ - carthage update --use-xcframeworks --platform iOS
+# before_script:
+#  - carthage bootstrap --platform iOS
 script:
   - xcodebuild -scheme web3swift -project web3swift.xcodeproj -sdk iphonesimulator14.5 -destination 'platform=iOS Simulator,name=iPhone 12,OS=14.5' build test
 after_success:
