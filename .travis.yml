@@ -5,9 +5,9 @@ xcode_project: web3swift.xcworkspace
 xcode_scheme: web3swift-iOS
 xcode_destination: platform=iOS Simulator, OS=14.5, name=iPhone X
 # before_install:
-#  - brew install carthage || true
-#  - brew outdated carthage || brew upgrade carthage
-#  - carthage update --use-xcframeworks
+ - brew install carthage || true
+ - brew outdated carthage || brew upgrade carthage
+ - carthage update --use-xcframeworks
 #before_script:
 #  - carthage bootstrap --platform iOS --no-use-binaries --cache-builds
 script:
