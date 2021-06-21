@@ -5,9 +5,9 @@ xcode_project: web3swift.xcworkspace
 xcode_scheme: web3swift-iOS
 xcode_destination: platform=iOS Simulator, OS=14.5, name=iPhone 12
 before_install:
- - brew install carthage || true
- - brew outdated carthage || brew upgrade carthage
- - carthage update --use-xcframeworks --platform iOS
+#  - brew install carthage || true
+#  - brew outdated carthage || brew upgrade carthage
+#  - carthage update --use-xcframeworks --platform iOS
 # before_script:
 #  - carthage bootstrap --platform iOS
 script:
