@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
     spec.name         = 'web3swift'
     spec.version      = '2.3.0'
-    spec.ios.deployment_target = "9.0"
+    spec.ios.deployment_target = "11.0"
     spec.osx.deployment_target = "10.11"
     spec.license      = { :type => 'Apache License 2.0', :file => 'LICENSE.md' }
     spec.summary      = 'Web3 implementation in vanilla Swift for iOS, macOS, and Linux'
