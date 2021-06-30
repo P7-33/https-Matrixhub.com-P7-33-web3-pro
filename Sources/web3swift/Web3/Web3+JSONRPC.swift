@@ -226,12 +226,15 @@ public struct JSONRPCresponse: Decodable{
 /// JSON RPC batch response structure for serialization and deserialization purposes.
 public struct JSONRPCresponseBatch: Decodable {
     var responses: [JSONRPCresponse]
-    
+     
     public init(from decoder: Decoder) throws {
         let container = try decoder.singleValueContainer()
-        let responses = try container.decode([JSONRPCresponse].self)
-        self.responses = responses
-    }
+         ///  Decode into a single JSONRPCresponse
+        let responses = try container.decode(JSONRPCresponse.self) // throws here
+        print("Successful \(responses)") /// print response
+         /// Satisfy variable type Array
+        self.responses = [responses]
+     }
 }
 
 /// Transaction parameters JSON structure for interaction with Ethereum node.
